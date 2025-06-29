@@ -1,8 +1,8 @@
 This is here to make a website for a client.
 
-This is a change
+Link:
+https://aarontug.github.io/wdd130-Muir/
 
-Im going to make another change
 
 Team Assignments:
 Aaron Tuggle: Home page. CSS file
