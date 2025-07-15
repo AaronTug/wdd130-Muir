@@ -37,3 +37,57 @@ body .SearchBar {
     font-size: larger;
 
 }
+
+.Box1 {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-column: 1 / 2;
+}
+
+.container {
+  max-width: 800px;      
+  margin: 40px auto;      
+  display: flex;
+  flex-direction: column;
+  gap: 30px;              
+}
+
+
+#Box1, #Box2, #Box3 {
+  display: flex;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  align-items: center;    
+}
+
+
+#Box1 img, #Box2 img, #Box3 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;      
+  border-radius: 8px;
+  margin-right: 20px;     
+}
+
+
+.text-content {
+  flex: 1;
+}
+
+.text-content h2 {
+  margin: 0 0 10px 0;
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+
+.text-content p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
